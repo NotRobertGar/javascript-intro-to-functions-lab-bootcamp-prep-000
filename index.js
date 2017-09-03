@@ -16,6 +16,9 @@ var lowercase = 'hello!'
 var mixedCase = 'Hi there!'
 
 function sayHiToGrandma(string){
+  if (string === "I love you, Grandma."){
+    return "I love you, too"
+  }
   if (lowercase.toLowerCase() === lowercase){
     return "I can\'t hear you!"
 
